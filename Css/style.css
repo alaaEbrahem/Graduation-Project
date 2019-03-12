@@ -465,7 +465,6 @@ a {
 .round input[type="checkbox"]:checked > label:after {
   opacity: 1; }
 
-<<<<<<< HEAD
 form {
   margin-bottom: 20px;
   margin-top: 20px;
@@ -592,7 +591,7 @@ form {
     background-color: #cac6c6; }
     .slider__indicator:hover, .slider__indicator.active {
       background-color: #94C13D; }
-=======
+
 .container-fluid.first-header .row {
   background-color: #d96a77;
   height: 10rem; }
@@ -891,4 +890,3 @@ ul.nav li.active a {
   .btn-primary:hover {
     background-color: #262626;
     color: #ffffff; }
->>>>>>> fb56d3efb17b86d40c22929dd0672a56f80a3399
