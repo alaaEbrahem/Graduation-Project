@@ -1,0 +1,23 @@
+
+.container-fluid{
+    &.first-header{
+        .row  {
+          background-color: #d96a77;
+          height : 10rem;
+        }
+  }
+  }
+  
+  .container{
+      &.first-sub-header {
+          // background-color: #d96a77;
+  
+          .row  {
+              background-color: whitesmoke;
+              margin-top: -3.5rem;
+              height : 3rem;
+          }
+  
+      }
+  
+  }
