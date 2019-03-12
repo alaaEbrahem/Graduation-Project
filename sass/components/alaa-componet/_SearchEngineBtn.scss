@@ -1,0 +1,61 @@
+.SearchEngineBtn {
+        &--red,&--blue{
+        padding-top: 1rem;
+        margin: 0;
+        border: none;
+        color: white;
+        width: auto;
+        text-align: left;
+        cursor: pointer;
+        // height: 4rem;
+        width: 21rem;
+        //width: auto;
+        border-right: 1px solid #adc3d9;
+        transition: background-color .25s;
+        
+
+        i.fa.fa-angle-down{
+            font-size: 2.3rem;
+            float: right;
+            font-weight: bold;
+      
+        }
+
+        &__label{
+        color: #d5e7f4;
+        margin: 1rem;
+        // font-size: smaller;
+        font-size: 1.5rem;
+        }
+        
+    }
+        &--red{
+            background-color: #e3032c;
+            text-align: center;
+            &__title{
+                color: #fff;
+                margin: 1rem;
+                font-size: 3rem;
+            }
+
+            &:hover{
+                background: #fc0431;
+            }
+        }
+        &--blue{
+            background: #56a0d3;
+            &__title{
+                color: #fff;
+                margin: 1rem;
+                font-size: 2rem;
+            }
+            &:hover{
+                background: #4090c5;
+            }
+        }
+        @media only screen and (max-width: 884px) {
+            &--red,&--blue{
+                width: 100%;
+            }
+        }
+}

@@ -1,0 +1,83 @@
+.post{
+   
+    &__picture{
+
+    } 
+    &__text{
+        font-size: 1.02rem;
+        color: #555;
+        //font-family: 'Lato', sans-serif;
+        &__p-1{
+            line-height: 1.8rem;
+            margin-bottom: 1rem; 
+        }
+        &__p-2{
+            line-height: 1.8rem;  
+        }
+        &__p-3{
+          
+            line-height: 1.8rem;
+            font-size: 1.02rem;
+            color: #555;
+           
+        }
+    }
+}
+.post-title{
+    &__date{
+        width: 5rem;
+        height: 6rem;
+        font-size: 2rem;
+        font-weight: 900;
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        background-color: #94c13e;
+        padding-left: 1rem;
+        padding-top: 0.5rem;
+        .span{
+            font-size: 1.1rem;
+            font-weight: 600;
+            display: block;
+            padding-left: 0.2rem;
+        }
+       
+       
+    }
+    &__title{
+        margin: auto;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.6rem;
+        font-weight: 600;
+        
+       
+
+      a{
+          text-decoration: none;
+          &:hover{
+            color: #94c13d;   
+        }
+      }
+      &__meta{
+          ul{
+              padding: 0;
+          }
+          li{
+            color: #555;
+           
+            font-weight: 600;
+            display: inline-block;
+            font-size: 0.8rem;
+          list-style: none;}
+          .far{
+              margin-right: 0.2rem;
+            color: #94c13d;
+              font-size: 0.9rem;
+          }
+      }
+    }
+}
+
+.line-1{
+    border-top: 0.17rem solid #94c13d;
+}
+
