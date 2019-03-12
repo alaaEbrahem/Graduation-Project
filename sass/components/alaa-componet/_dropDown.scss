@@ -1,0 +1,16 @@
+.DropdownBox{
+    display: flex;
+    justify-content: center;
+    height:auto;
+    flex-wrap: wrap;
+    width: 61.9rem;
+    // background-color: wheat;
+
+    &--infoCol{
+        &__details{
+            list-style: none;
+            font-size: 2rem;
+        }
+    }
+
+}

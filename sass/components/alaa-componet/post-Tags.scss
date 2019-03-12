@@ -1,0 +1,45 @@
+.post-tag{
+    font-family: 'Poppins', sans-serif;
+    &__tag-1{
+        font-size: 1rem;
+        font-weight: 600;
+       
+        text-decoration: underline;
+        color: #222
+    }
+    &__tag-2,&__tag-3,&__tag-4,&__tag-5{
+        a{
+          
+        color: #94c13d;
+        font-size: 1rem;
+        font-weight: 600;  
+        display: inline-block;}
+    }
+    &__left{
+        &__tag-1{
+            font-size: 1rem;
+            font-weight: 600;
+           
+            text-decoration: underline;
+            color: #222
+        }
+        &__tag-2,&__tag-3,&__tag-4,&__tag-5{
+            a{
+                position: relative;
+                width: 2.5rem;
+                height: 2.5rem;
+                color: #848484;
+                font-size: 16px;
+                line-height: 2.5rem;
+                text-align: center;
+                border-radius: 50%;
+                display: inline-block;
+                background: #f4f4f4;
+            &:hover{
+                background: #94c13d;  
+                color:white; 
+            }
+            }
+        }   
+    }
+}
