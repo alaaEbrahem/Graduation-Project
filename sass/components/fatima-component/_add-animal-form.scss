@@ -1,0 +1,117 @@
+form{
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border: 1px grey solid;
+	border-top: 5px $color-primary solid;
+	border-radius: 10px;
+	padding: 16px;
+}
+
+
+.form-group
+{
+	input
+	{
+	
+		border-radius: 25px;
+		height: 3.5rem; 
+		
+	}
+	textarea
+	{ 
+		height: 12rem;
+    resize: none;
+		padding: 12px 25px;
+		border-radius: 27.5px;
+	}
+	select
+	{
+		border-radius: 27.5px;
+		height: 3.8rem;
+		width: 94%;
+		margin-left: 8px;
+	}
+		
+	
+
+	label
+{
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+		padding: .5rem;
+		font-family: Lato, sans-serif;
+}
+.form-check-label
+{
+	padding-top: 10px;
+}
+&-name,&-age
+{
+	margin-left: 2rem; 
+}
+
+.form-control
+{
+			 font-size: 1.6rem; 
+			 line-height: 1.85; 
+	&:focus , &:active
+	{
+			outline:none;
+			border-color:$color-primary;
+			box-shadow: 0 0 0 .1px $color-primary; 
+	}  
+
+}
+&__checkboxs,&__radios,&__typing
+{
+	border: 1.1px solid $color-primary;
+	border-radius: 27.5px;
+	height: 13rem; 
+	display: flex;
+	flex-direction: column;
+	margin-left: 0;
+	margin-right: 0;
+	margin: 5px;
+	width: 95%;
+	padding: 8px;
+
+}
+&__typing 
+{
+	height: 18rem;
+	margin-bottom: 10px;
+}
+}
+
+.btn
+{
+ color: white;
+	padding: 1.12rem 1.6rem;
+	border-radius: 25px;
+	min-width: 7.5rem;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	font-size: 1.12rem;
+	font-weight: 700;
+	border: none;
+	cursor: pointer;
+
+	&:hover{
+		color:$color-white;
+	}
+	&:focus{
+	box-shadow: none;
+	}
+	&--cancel,&--cancel:focus
+	{
+	 background-color:$color-black;
+	//  margin-left: 206px;
+	}
+	&--save
+	{
+		background-color:$color-primary ;
+		
+	}
+} 
