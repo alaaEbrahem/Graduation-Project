@@ -3,12 +3,25 @@
 @import 'abstracts/variables';
 
 
-@import 'components/test';
+
 
 @import 'base/animation';
 @import 'base/base';
 @import 'base/reset';
 @import 'base/typography';
 @import 'base/utilites';
+
+@import 'components/alaa-componet/SearchEngineBtn';
+@import'components/alaa-componet/SearchEngineContainer';
+@import'components/alaa-componet/SearchEngineCard';
+@import'components/alaa-componet/dropDown';
+@import'components/alaa-componet/post.scss';
+@import'components/alaa-componet/BlogBanner';
+
+@import'components/alaa-componet/post-Tags.scss';
+@import'components/alaa-componet/sperator.scss';
+@import'components/alaa-componet/addComment';
+@import'components/alaa-componet/form';
+@import'components/alaa-componet/left-sidebar';
 
 

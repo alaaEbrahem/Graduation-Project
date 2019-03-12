@@ -1,0 +1,18 @@
+.add-comment-title{
+  
+     h2{
+        position: relative;
+        font-size: 1.8rem;
+        color: #222222;
+        font-weight: 500;
+        padding-bottom: 5px;
+        text-transform: capitalize;
+     }
+       
+   
+    &__sperator{
+        &__1{
+            border-top: 0.2rem solid black;
+        }
+    }
+    }
