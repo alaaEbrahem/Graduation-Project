@@ -1,0 +1,21 @@
+.add-animal
+{
+	&__image-actions
+	{
+		display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    position: absolute; 
+	}
+	&__image-action
+	{
+		font-size: 2rem;
+		padding: 2.5rem;
+		padding-top: 1rem;
+		a{
+			color: #94c13d;
+		}
+		
+	}
+}   
