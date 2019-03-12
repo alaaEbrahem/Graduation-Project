@@ -4,12 +4,14 @@
 
 
 
-
 @import 'base/animation';
 @import 'base/base';
 @import 'base/reset';
 @import 'base/typography';
 @import 'base/utilites';
+
+
+@import 'layout/footer.scss';
 
 @import 'components/alaa-componet/SearchEngineBtn';
 @import'components/alaa-componet/SearchEngineContainer';
@@ -31,3 +33,13 @@
 
 
 
+
+@import'components/componentsSara/header.scss';
+@import'components/componentsSara/login-form.scss';
+@import 'components/componentsSara/login-img.scss';
+@import 'components/componentsSara/footer.scss';
+@import 'components/componentsSara/profile-list.scss';
+@import 'components/componentsSara/pet-card.scss';
+@import 'components/componentsSara/paging.scss';
+@import 'components/componentsSara/search-box.scss';
+@import 'components/componentsSara/_custom.scss';
